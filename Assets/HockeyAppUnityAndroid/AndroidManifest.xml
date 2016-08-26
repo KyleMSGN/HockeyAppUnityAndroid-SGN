@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sgn.safarismash"
+    package="com.sgn.match3builder"
     android:versionCode="11"
     android:versionName="1.1.1" >
     
     <uses-permission android:name="android.permission.INTERNET" />
-<!--	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />-->
+
+    <!-- Note: It's been stated before that we do not want this permission, so we either need
+    to find a work around or keep hockey to being development only-->
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-sdk
         android:minSdkVersion="9"
